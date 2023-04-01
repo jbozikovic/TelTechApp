@@ -7,10 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2DB01CC929D869B10096497C /* NetworkLayerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB01C9029D869B10096497C /* NetworkLayerService.swift */; };
+		2DB01CCA29D869B10096497C /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB01C9229D869B10096497C /* AppCoordinator.swift */; };
+		2DB01CCB29D869B10096497C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB01C9429D869B10096497C /* Constants.swift */; };
+		2DB01CCD29D869B10096497C /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB01C9729D869B10096497C /* String+Extensions.swift */; };
+		2DB01CCE29D869B10096497C /* Reachability+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB01C9829D869B10096497C /* Reachability+Extensions.swift */; };
+		2DB01CCF29D869B10096497C /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB01C9A29D869B10096497C /* Reachability.swift */; };
+		2DB01CD029D869B10096497C /* KeyboardObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB01C9C29D869B10096497C /* KeyboardObserver.swift */; };
+		2DB01CD329D869B10096497C /* NetworkResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB01CA229D869B10096497C /* NetworkResponse.swift */; };
+		2DB01CD429D869B10096497C /* HTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB01CA329D869B10096497C /* HTTPRequest.swift */; };
+		2DB01CDD29D869B10096497C /* Requestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB01CAF29D869B10096497C /* Requestable.swift */; };
+		2DB01CDF29D869B10096497C /* ErrorHandlerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB01CB129D869B10096497C /* ErrorHandlerProtocol.swift */; };
+		2DB01CE029D869B10096497C /* Configurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB01CB229D869B10096497C /* Configurable.swift */; };
+		2DB01CE129D869B10096497C /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB01CB329D869B10096497C /* Reusable.swift */; };
+		2DB01CE229D869B10096497C /* NavigationBarProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB01CB429D869B10096497C /* NavigationBarProtocol.swift */; };
+		2DB01CE329D869B10096497C /* Presentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB01CB529D869B10096497C /* Presentable.swift */; };
+		2DB01CE429D869B10096497C /* ActivityIndicatorPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB01CB629D869B10096497C /* ActivityIndicatorPresentable.swift */; };
+		2DB01CE629D869B10096497C /* ViewStyleable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB01CB829D869B10096497C /* ViewStyleable.swift */; };
+		2DB01CE729D869B10096497C /* IDable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB01CB929D869B10096497C /* IDable.swift */; };
+		2DB01CE829D869B10096497C /* Loadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB01CBA29D869B10096497C /* Loadable.swift */; };
+		2DB01CE929D869B10096497C /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB01CBC29D869B10096497C /* Utility.swift */; };
+		2DB01CEC29D869B10096497C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DB01CC429D869B10096497C /* Assets.xcassets */; };
+		2DB01CED29D869B10096497C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2DB01CC629D869B10096497C /* Localizable.strings */; };
+		2DB01CF029D879200096497C /* URLFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB01CEF29D879200096497C /* URLFormatter.swift */; };
+		2DB01CF329D879600096497C /* teltechians.json in Resources */ = {isa = PBXBuildFile; fileRef = 2DB01CF229D879600096497C /* teltechians.json */; };
 		2DD6011529D6DAE800FEC7F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD6011429D6DAE800FEC7F2 /* AppDelegate.swift */; };
 		2DD6011929D6DAE800FEC7F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD6011829D6DAE800FEC7F2 /* ViewController.swift */; };
 		2DD6011C29D6DAE800FEC7F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DD6011A29D6DAE800FEC7F2 /* Main.storyboard */; };
-		2DD6011E29D6DAEA00FEC7F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DD6011D29D6DAEA00FEC7F2 /* Assets.xcassets */; };
 		2DD6012129D6DAEA00FEC7F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DD6011F29D6DAEA00FEC7F2 /* LaunchScreen.storyboard */; };
 		2DD6012C29D6DAEA00FEC7F2 /* TelTechAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD6012B29D6DAEA00FEC7F2 /* TelTechAppTests.swift */; };
 		2DD6013629D6DAEA00FEC7F2 /* TelTechAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD6013529D6DAEA00FEC7F2 /* TelTechAppUITests.swift */; };
@@ -35,11 +58,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2DB01C9029D869B10096497C /* NetworkLayerService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkLayerService.swift; sourceTree = "<group>"; };
+		2DB01C9229D869B10096497C /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		2DB01C9429D869B10096497C /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2DB01C9729D869B10096497C /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		2DB01C9829D869B10096497C /* Reachability+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Reachability+Extensions.swift"; sourceTree = "<group>"; };
+		2DB01C9A29D869B10096497C /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		2DB01C9C29D869B10096497C /* KeyboardObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardObserver.swift; sourceTree = "<group>"; };
+		2DB01CA229D869B10096497C /* NetworkResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkResponse.swift; sourceTree = "<group>"; };
+		2DB01CA329D869B10096497C /* HTTPRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPRequest.swift; sourceTree = "<group>"; };
+		2DB01CAF29D869B10096497C /* Requestable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Requestable.swift; sourceTree = "<group>"; };
+		2DB01CB129D869B10096497C /* ErrorHandlerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorHandlerProtocol.swift; sourceTree = "<group>"; };
+		2DB01CB229D869B10096497C /* Configurable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configurable.swift; sourceTree = "<group>"; };
+		2DB01CB329D869B10096497C /* Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
+		2DB01CB429D869B10096497C /* NavigationBarProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBarProtocol.swift; sourceTree = "<group>"; };
+		2DB01CB529D869B10096497C /* Presentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Presentable.swift; sourceTree = "<group>"; };
+		2DB01CB629D869B10096497C /* ActivityIndicatorPresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorPresentable.swift; sourceTree = "<group>"; };
+		2DB01CB829D869B10096497C /* ViewStyleable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewStyleable.swift; sourceTree = "<group>"; };
+		2DB01CB929D869B10096497C /* IDable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IDable.swift; sourceTree = "<group>"; };
+		2DB01CBA29D869B10096497C /* Loadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loadable.swift; sourceTree = "<group>"; };
+		2DB01CBC29D869B10096497C /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		2DB01CC429D869B10096497C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2DB01CC629D869B10096497C /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		2DB01CEF29D879200096497C /* URLFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLFormatter.swift; sourceTree = "<group>"; };
+		2DB01CF229D879600096497C /* teltechians.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = teltechians.json; sourceTree = "<group>"; };
 		2DD6011129D6DAE800FEC7F2 /* TelTechApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TelTechApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DD6011429D6DAE800FEC7F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DD6011829D6DAE800FEC7F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2DD6011B29D6DAE800FEC7F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2DD6011D29D6DAEA00FEC7F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DD6012029D6DAEA00FEC7F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2DD6012229D6DAEA00FEC7F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DD6012729D6DAEA00FEC7F2 /* TelTechAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelTechAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,6 +120,213 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2DB01C8729D8698B0096497C /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				2DD6011429D6DAE800FEC7F2 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		2DB01C8A29D869B10096497C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2DB01C9129D869B10096497C /* AppCoordinator */,
+				2DB01C9329D869B10096497C /* Constants */,
+				2DB01C9D29D869B10096497C /* Data */,
+				2DB01C9529D869B10096497C /* Extensions */,
+				2DB01C8F29D869B10096497C /* NetworkLayerService */,
+				2DB01C8B29D869B10096497C /* PropertyWrappers */,
+				2DB01CAE29D869B10096497C /* Protocols */,
+				2DB01C9B29D869B10096497C /* Publishers */,
+				2DB01C9929D869B10096497C /* Reachability */,
+				2DB01CBB29D869B10096497C /* Utility */,
+				2DB01CAB29D869B10096497C /* Views */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		2DB01C8B29D869B10096497C /* PropertyWrappers */ = {
+			isa = PBXGroup;
+			children = (
+				2DB01CEF29D879200096497C /* URLFormatter.swift */,
+			);
+			path = PropertyWrappers;
+			sourceTree = "<group>";
+		};
+		2DB01C8F29D869B10096497C /* NetworkLayerService */ = {
+			isa = PBXGroup;
+			children = (
+				2DB01C9029D869B10096497C /* NetworkLayerService.swift */,
+			);
+			path = NetworkLayerService;
+			sourceTree = "<group>";
+		};
+		2DB01C9129D869B10096497C /* AppCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				2DB01C9229D869B10096497C /* AppCoordinator.swift */,
+			);
+			path = AppCoordinator;
+			sourceTree = "<group>";
+		};
+		2DB01C9329D869B10096497C /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				2DB01C9429D869B10096497C /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		2DB01C9529D869B10096497C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2DB01C9729D869B10096497C /* String+Extensions.swift */,
+				2DB01C9829D869B10096497C /* Reachability+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2DB01C9929D869B10096497C /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				2DB01C9A29D869B10096497C /* Reachability.swift */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		2DB01C9B29D869B10096497C /* Publishers */ = {
+			isa = PBXGroup;
+			children = (
+				2DB01C9C29D869B10096497C /* KeyboardObserver.swift */,
+			);
+			path = Publishers;
+			sourceTree = "<group>";
+		};
+		2DB01C9D29D869B10096497C /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				2DB01C9E29D869B10096497C /* Repository */,
+				2DB01CA129D869B10096497C /* Model */,
+				2DB01CA829D869B10096497C /* DAL */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		2DB01C9E29D869B10096497C /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		2DB01CA129D869B10096497C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2DB01CA229D869B10096497C /* NetworkResponse.swift */,
+				2DB01CA329D869B10096497C /* HTTPRequest.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2DB01CA829D869B10096497C /* DAL */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DAL;
+			sourceTree = "<group>";
+		};
+		2DB01CAB29D869B10096497C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2DB01CAE29D869B10096497C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				2DB01CB629D869B10096497C /* ActivityIndicatorPresentable.swift */,
+				2DB01CB229D869B10096497C /* Configurable.swift */,
+				2DB01CB129D869B10096497C /* ErrorHandlerProtocol.swift */,
+				2DB01CB929D869B10096497C /* IDable.swift */,
+				2DB01CBA29D869B10096497C /* Loadable.swift */,
+				2DB01CB429D869B10096497C /* NavigationBarProtocol.swift */,
+				2DB01CB529D869B10096497C /* Presentable.swift */,
+				2DB01CAF29D869B10096497C /* Requestable.swift */,
+				2DB01CB329D869B10096497C /* Reusable.swift */,
+				2DB01CB829D869B10096497C /* ViewStyleable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		2DB01CBB29D869B10096497C /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				2DB01CBC29D869B10096497C /* Utility.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		2DB01CBD29D869B10096497C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2DB01CC329D869B10096497C /* Assets */,
+				2DB01CF129D879570096497C /* Data */,
+				2DB01CC129D869B10096497C /* Info */,
+				2DB01CBE29D869B10096497C /* LaunchScreen */,
+				2DB01CC529D869B10096497C /* Translations */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2DB01CBE29D869B10096497C /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				2DD6011F29D6DAEA00FEC7F2 /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		2DB01CC129D869B10096497C /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				2DD6012229D6DAEA00FEC7F2 /* Info.plist */,
+			);
+			path = Info;
+			sourceTree = "<group>";
+		};
+		2DB01CC329D869B10096497C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				2DB01CC429D869B10096497C /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		2DB01CC529D869B10096497C /* Translations */ = {
+			isa = PBXGroup;
+			children = (
+				2DB01CC629D869B10096497C /* Localizable.strings */,
+			);
+			path = Translations;
+			sourceTree = "<group>";
+		};
+		2DB01CEE29D869D10096497C /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		2DB01CF129D879570096497C /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				2DB01CF229D879600096497C /* teltechians.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		2DD6010829D6DAE800FEC7F2 = {
 			isa = PBXGroup;
 			children = (
@@ -97,12 +350,12 @@
 		2DD6011329D6DAE800FEC7F2 /* TelTechApp */ = {
 			isa = PBXGroup;
 			children = (
-				2DD6011429D6DAE800FEC7F2 /* AppDelegate.swift */,
-				2DD6011829D6DAE800FEC7F2 /* ViewController.swift */,
+				2DB01C8729D8698B0096497C /* AppDelegate */,
+				2DB01C8A29D869B10096497C /* Common */,
 				2DD6011A29D6DAE800FEC7F2 /* Main.storyboard */,
-				2DD6011D29D6DAEA00FEC7F2 /* Assets.xcassets */,
-				2DD6011F29D6DAEA00FEC7F2 /* LaunchScreen.storyboard */,
-				2DD6012229D6DAEA00FEC7F2 /* Info.plist */,
+				2DB01CBD29D869B10096497C /* Resources */,
+				2DB01CEE29D869D10096497C /* Screens */,
+				2DD6011829D6DAE800FEC7F2 /* ViewController.swift */,
 			);
 			path = TelTechApp;
 			sourceTree = "<group>";
@@ -230,8 +483,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DD6012129D6DAEA00FEC7F2 /* LaunchScreen.storyboard in Resources */,
-				2DD6011E29D6DAEA00FEC7F2 /* Assets.xcassets in Resources */,
+				2DB01CEC29D869B10096497C /* Assets.xcassets in Resources */,
+				2DB01CED29D869B10096497C /* Localizable.strings in Resources */,
 				2DD6011C29D6DAE800FEC7F2 /* Main.storyboard in Resources */,
+				2DB01CF329D879600096497C /* teltechians.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +511,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DB01CCA29D869B10096497C /* AppCoordinator.swift in Sources */,
+				2DB01CC929D869B10096497C /* NetworkLayerService.swift in Sources */,
+				2DB01CE429D869B10096497C /* ActivityIndicatorPresentable.swift in Sources */,
+				2DB01CE229D869B10096497C /* NavigationBarProtocol.swift in Sources */,
+				2DB01CE729D869B10096497C /* IDable.swift in Sources */,
+				2DB01CDF29D869B10096497C /* ErrorHandlerProtocol.swift in Sources */,
+				2DB01CE029D869B10096497C /* Configurable.swift in Sources */,
+				2DB01CCD29D869B10096497C /* String+Extensions.swift in Sources */,
+				2DB01CD429D869B10096497C /* HTTPRequest.swift in Sources */,
+				2DB01CCB29D869B10096497C /* Constants.swift in Sources */,
+				2DB01CDD29D869B10096497C /* Requestable.swift in Sources */,
+				2DB01CCE29D869B10096497C /* Reachability+Extensions.swift in Sources */,
+				2DB01CE929D869B10096497C /* Utility.swift in Sources */,
+				2DB01CCF29D869B10096497C /* Reachability.swift in Sources */,
+				2DB01CE129D869B10096497C /* Reusable.swift in Sources */,
+				2DB01CD329D869B10096497C /* NetworkResponse.swift in Sources */,
+				2DB01CE329D869B10096497C /* Presentable.swift in Sources */,
 				2DD6011929D6DAE800FEC7F2 /* ViewController.swift in Sources */,
+				2DB01CD029D869B10096497C /* KeyboardObserver.swift in Sources */,
+				2DB01CE829D869B10096497C /* Loadable.swift in Sources */,
+				2DB01CE629D869B10096497C /* ViewStyleable.swift in Sources */,
 				2DD6011529D6DAE800FEC7F2 /* AppDelegate.swift in Sources */,
+				2DB01CF029D879200096497C /* URLFormatter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,7 +712,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7FMDEPCZKJ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TelTechApp/Info.plist;
+				INFOPLIST_FILE = TelTechApp/Resources/Info/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = TelTechApp;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
@@ -465,7 +741,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7FMDEPCZKJ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TelTechApp/Info.plist;
+				INFOPLIST_FILE = TelTechApp/Resources/Info/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = TelTechApp;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;

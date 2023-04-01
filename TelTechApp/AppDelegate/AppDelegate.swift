@@ -9,8 +9,13 @@ import UIKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
+    var window: UIWindow?
+    private var appCoordinator: AppCoordinator?
+
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.        
+        // Override point for customization after application launch.
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        appSetup(window: window)
         return true
     }
     
@@ -34,5 +39,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    }
+}
+
+
+//  MARK: - App setup (AppCoordinator ...)
+private extension AppDelegate {
+    func appSetup(window: UIWindow?) {
+        //  AppCoordinator
+        self.appCoordinator = AppCoordinator(window: window)
+        self.appCoordinator?.start()
+                    
+        disableDarkModeSupport()
+    }
+    
+    func disableDarkModeSupport() {
+        window?.overrideUserInterfaceStyle = .light
     }
 }
