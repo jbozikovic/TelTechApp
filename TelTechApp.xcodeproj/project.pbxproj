@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2DD6011529D6DAE800FEC7F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD6011429D6DAE800FEC7F2 /* AppDelegate.swift */; };
-		2DD6011729D6DAE800FEC7F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD6011629D6DAE800FEC7F2 /* SceneDelegate.swift */; };
 		2DD6011929D6DAE800FEC7F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD6011829D6DAE800FEC7F2 /* ViewController.swift */; };
 		2DD6011C29D6DAE800FEC7F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DD6011A29D6DAE800FEC7F2 /* Main.storyboard */; };
 		2DD6011E29D6DAEA00FEC7F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DD6011D29D6DAEA00FEC7F2 /* Assets.xcassets */; };
@@ -38,7 +37,6 @@
 /* Begin PBXFileReference section */
 		2DD6011129D6DAE800FEC7F2 /* TelTechApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TelTechApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DD6011429D6DAE800FEC7F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2DD6011629D6DAE800FEC7F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2DD6011829D6DAE800FEC7F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2DD6011B29D6DAE800FEC7F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2DD6011D29D6DAEA00FEC7F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,7 +98,6 @@
 			isa = PBXGroup;
 			children = (
 				2DD6011429D6DAE800FEC7F2 /* AppDelegate.swift */,
-				2DD6011629D6DAE800FEC7F2 /* SceneDelegate.swift */,
 				2DD6011829D6DAE800FEC7F2 /* ViewController.swift */,
 				2DD6011A29D6DAE800FEC7F2 /* Main.storyboard */,
 				2DD6011D29D6DAEA00FEC7F2 /* Assets.xcassets */,
@@ -192,6 +189,7 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
+				ORGANIZATIONNAME = CocodeLab;
 				TargetAttributes = {
 					2DD6011029D6DAE800FEC7F2 = {
 						CreatedOnToolsVersion = 14.2;
@@ -260,7 +258,6 @@
 			files = (
 				2DD6011929D6DAE800FEC7F2 /* ViewController.swift in Sources */,
 				2DD6011529D6DAE800FEC7F2 /* AppDelegate.swift in Sources */,
-				2DD6011729D6DAE800FEC7F2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,11 +437,12 @@
 				DEVELOPMENT_TEAM = 7FMDEPCZKJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TelTechApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TelTechApp;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -468,11 +466,12 @@
 				DEVELOPMENT_TEAM = 7FMDEPCZKJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TelTechApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TelTechApp;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
