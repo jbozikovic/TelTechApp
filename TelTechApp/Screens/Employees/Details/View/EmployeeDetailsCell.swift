@@ -44,6 +44,7 @@ class EmployeeDetailsCell: UITableViewCell, Configurable {
 private extension EmployeeDetailsCell {
     func setupGUI() {
         backgroundColor = .clear
+        selectionStyle = .none
         addSubviews()
         Utility.setupLabel(captionLabel, font: AppUI.defaultFontBold, textColor: AppUI.titleFontColor)
         Utility.setupLabel(valueLabel, font: AppUI.defaultFont, textColor: AppUI.bodyFontColor, numberOfLines: EmployeeDetailsCellConstants.valueNumberOfLines)

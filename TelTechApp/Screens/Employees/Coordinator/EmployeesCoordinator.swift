@@ -15,9 +15,11 @@ class EmployeesCoordinator: Coordinator {
     var viewModel: EmployeeListViewModel?
     var repository: EmployeesRepositoryProtocol
     private var cancellables = Set<AnyCancellable>()
+    private let analyticsService: AnalyticsProtocol
         
-    init(presenter: UINavigationController) {
+    init(presenter: UINavigationController, analyticsService: AnalyticsProtocol) {
         self.presenter = presenter
+        self.analyticsService = analyticsService
         childCoordinators = []
         let localStorageService = EmployeesLocalStorageService(fileManager: FilesManager(), fileName: AppConfig.dataFileName, fileExtension: Constants.jsonFileExtension)
         repository = EmployeesRepository(localStorageService: localStorageService)
@@ -41,6 +43,7 @@ private extension EmployeesCoordinator {
         viewModel?.didTapEmployee.sink { [weak self] (employee) in
             guard let weakSelf = self else { return }
             weakSelf.navigateToEmployeeDetails(employee: employee)
+            weakSelf.logEvent(event: .userTappedEmployee)
         }.store(in: &cancellables)
     }
 }
@@ -52,6 +55,7 @@ private extension EmployeesCoordinator {
         guard let vm = viewModel else { return }
         let vc = EmployeeListViewController(viewModel: vm)
         presenter.pushViewController(vc, animated: true)
+        trackScreen(viewController: vc)
     }
 }
 
@@ -62,6 +66,18 @@ private extension EmployeesCoordinator {
         let viewModel = EmployeeDetailsViewModel(employee: employee)
         let vc = EmployeeDetailsViewController(viewModel: viewModel)
         presenter.pushViewController(vc, animated: true)
+        trackScreen(viewController: vc)
     }
 }
 
+
+//  MARK: - Analytics
+private extension EmployeesCoordinator {
+    func trackScreen(viewController: UIViewController) {
+        analyticsService.trackScreen(screenName: viewController.screenName)
+    }
+    
+    func logEvent(event: AnalyticsEvents) {
+        analyticsService.logEvent(event, parameters: nil)
+    }
+}

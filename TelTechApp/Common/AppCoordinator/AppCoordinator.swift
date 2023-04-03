@@ -56,7 +56,7 @@ class AppCoordinator: Coordinator {
 //  MARK: - EmployeesCoordinator
 private extension AppCoordinator {
     func startEmployeesCoordinator() {
-        let coordinator = EmployeesCoordinator(presenter: presenter)
+        let coordinator = EmployeesCoordinator(presenter: presenter, analyticsService: AnalyticsService())
         self.addChildCoordinator(coordinator: coordinator)
         coordinator.start()
     }

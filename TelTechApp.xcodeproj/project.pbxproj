@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		2D2F257D29DB112800EC4364 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2D2F257F29DB112800EC4364 /* Localizable.strings */; };
+		2D2F258529DB145800EC4364 /* AnalyticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2F258429DB145800EC4364 /* AnalyticsService.swift */; };
+		2D2F258729DB19AA00EC4364 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2F258629DB19AA00EC4364 /* UIViewController+Extensions.swift */; };
+		2D2F258929DB19BF00EC4364 /* AnalyticsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2F258829DB19BF00EC4364 /* AnalyticsProtocol.swift */; };
 		2DB01CC929D869B10096497C /* NetworkLayerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB01C9029D869B10096497C /* NetworkLayerService.swift */; };
 		2DB01CCA29D869B10096497C /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB01C9229D869B10096497C /* AppCoordinator.swift */; };
 		2DB01CCB29D869B10096497C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB01C9429D869B10096497C /* Constants.swift */; };
@@ -86,6 +89,9 @@
 /* Begin PBXFileReference section */
 		2D2F257E29DB112800EC4364 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		2D2F258229DB11C400EC4364 /* hr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hr; path = hr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2D2F258429DB145800EC4364 /* AnalyticsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsService.swift; sourceTree = "<group>"; };
+		2D2F258629DB19AA00EC4364 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		2D2F258829DB19BF00EC4364 /* AnalyticsProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsProtocol.swift; sourceTree = "<group>"; };
 		2DB01C9029D869B10096497C /* NetworkLayerService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkLayerService.swift; sourceTree = "<group>"; };
 		2DB01C9229D869B10096497C /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		2DB01C9429D869B10096497C /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -173,6 +179,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D2F258329DB144D00EC4364 /* AnalyticsService */ = {
+			isa = PBXGroup;
+			children = (
+				2D2F258429DB145800EC4364 /* AnalyticsService.swift */,
+			);
+			path = AnalyticsService;
+			sourceTree = "<group>";
+		};
 		2DB01C8729D8698B0096497C /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
@@ -184,6 +198,7 @@
 		2DB01C8A29D869B10096497C /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				2D2F258329DB144D00EC4364 /* AnalyticsService */,
 				2DB01C9129D869B10096497C /* AppCoordinator */,
 				2DB01C9329D869B10096497C /* Constants */,
 				2DB01C9D29D869B10096497C /* Data */,
@@ -239,6 +254,7 @@
 			children = (
 				2DB01C9729D869B10096497C /* String+Extensions.swift */,
 				2DB01C9829D869B10096497C /* Reachability+Extensions.swift */,
+				2D2F258629DB19AA00EC4364 /* UIViewController+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -307,6 +323,7 @@
 			isa = PBXGroup;
 			children = (
 				2DB01CB629D869B10096497C /* ActivityIndicatorPresentable.swift */,
+				2D2F258829DB19BF00EC4364 /* AnalyticsProtocol.swift */,
 				2DB01CB229D869B10096497C /* Configurable.swift */,
 				2DB01D2129DA28580096497C /* EmployeeItemProtocol.swift */,
 				2DB01CB129D869B10096497C /* ErrorHandlerProtocol.swift */,
@@ -317,8 +334,8 @@
 				2DB01CB529D869B10096497C /* Presentable.swift */,
 				2DB01CAF29D869B10096497C /* Requestable.swift */,
 				2DB01CB329D869B10096497C /* Reusable.swift */,
-				2DB01CB829D869B10096497C /* ViewStyleable.swift */,
 				2DB01D3129DAD4510096497C /* ViewControllerProtocol.swift */,
+				2DB01CB829D869B10096497C /* ViewStyleable.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -714,6 +731,7 @@
 				2DB01CC929D869B10096497C /* NetworkLayerService.swift in Sources */,
 				2DB01CE429D869B10096497C /* ActivityIndicatorPresentable.swift in Sources */,
 				2DB01D0629D886890096497C /* EmployeeCellViewModel.swift in Sources */,
+				2D2F258529DB145800EC4364 /* AnalyticsService.swift in Sources */,
 				2DB01D2E29DAC26E0096497C /* FilesManager.swift in Sources */,
 				2DB01D2929DABEDF0096497C /* EmployeesLocalStorageService.swift in Sources */,
 				2DB01D0429D885C90096497C /* EmployeeListViewModel.swift in Sources */,
@@ -735,6 +753,7 @@
 				2DB01CCB29D869B10096497C /* Constants.swift in Sources */,
 				2DB01D1C29DA25660096497C /* EmployeeDetailsHeaderView.swift in Sources */,
 				2DB01D0A29D9BB450096497C /* EmployeeListViewController.swift in Sources */,
+				2D2F258729DB19AA00EC4364 /* UIViewController+Extensions.swift in Sources */,
 				2DB01D0829D9B8E50096497C /* EmployeeListDataSource.swift in Sources */,
 				2DB01CDD29D869B10096497C /* Requestable.swift in Sources */,
 				2DB01CCE29D869B10096497C /* Reachability+Extensions.swift in Sources */,
@@ -742,6 +761,7 @@
 				2DB01D3A29DAEC8E0096497C /* RoundedImageView.swift in Sources */,
 				2DB01CCF29D869B10096497C /* Reachability.swift in Sources */,
 				2DB01CE129D869B10096497C /* Reusable.swift in Sources */,
+				2D2F258929DB19BF00EC4364 /* AnalyticsProtocol.swift in Sources */,
 				2DB01CD329D869B10096497C /* NetworkResponse.swift in Sources */,
 				2DB01D0F29DA14200096497C /* DecodedArray.swift in Sources */,
 				2DB01CE329D869B10096497C /* Presentable.swift in Sources */,
@@ -951,7 +971,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -980,7 +1000,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
