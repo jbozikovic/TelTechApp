@@ -15,3 +15,10 @@
 "email" = "E-mail";
 "no_data" = "Nothing found.";
 "fetch_data_failed" = "Fetching data failed with error. Please try again or contact us.";
+"title" = "Title";
+"team" = "team";
+"about_me" = "About me";
+"agency" = "Agency";
+"details" = "Details";
+"employees" = "Employees";
+"no_file" = "No file found";

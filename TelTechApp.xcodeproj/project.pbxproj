@@ -31,6 +31,32 @@
 		2DB01CED29D869B10096497C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2DB01CC629D869B10096497C /* Localizable.strings */; };
 		2DB01CF029D879200096497C /* URLFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB01CEF29D879200096497C /* URLFormatter.swift */; };
 		2DB01CF329D879600096497C /* teltechians.json in Resources */ = {isa = PBXBuildFile; fileRef = 2DB01CF229D879600096497C /* teltechians.json */; };
+		2DB01CF529D87B2B0096497C /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB01CF429D87B2B0096497C /* Employee.swift */; };
+		2DB01CF729D87C8B0096497C /* EmployeesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB01CF629D87C8B0096497C /* EmployeesRepository.swift */; };
+		2DB01D0429D885C90096497C /* EmployeeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB01D0329D885C90096497C /* EmployeeListViewModel.swift */; };
+		2DB01D0629D886890096497C /* EmployeeCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB01D0529D886890096497C /* EmployeeCellViewModel.swift */; };
+		2DB01D0829D9B8E50096497C /* EmployeeListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB01D0729D9B8E50096497C /* EmployeeListDataSource.swift */; };
+		2DB01D0A29D9BB450096497C /* EmployeeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB01D0929D9BB450096497C /* EmployeeListViewController.swift */; };
+		2DB01D0C29DA0D7A0096497C /* EmployeesCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB01D0B29DA0D7A0096497C /* EmployeesCoordinator.swift */; };
+		2DB01D0F29DA14200096497C /* DecodedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB01D0E29DA14200096497C /* DecodedArray.swift */; };
+		2DB01D1229DA16390096497C /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2DB01D1129DA16390096497C /* SnapKit */; };
+		2DB01D1429DA17000096497C /* EmployeeListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB01D1329DA17000096497C /* EmployeeListCell.swift */; };
+		2DB01D1629DA22830096497C /* EmployeeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB01D1529DA22830096497C /* EmployeeDetailsViewController.swift */; };
+		2DB01D1829DA228F0096497C /* EmployeeDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB01D1729DA228F0096497C /* EmployeeDetailsViewModel.swift */; };
+		2DB01D1A29DA22AA0096497C /* EmployeeDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB01D1929DA22AA0096497C /* EmployeeDetailsCell.swift */; };
+		2DB01D1C29DA25660096497C /* EmployeeDetailsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB01D1B29DA25660096497C /* EmployeeDetailsHeaderView.swift */; };
+		2DB01D1E29DA25B10096497C /* EmployeeDetailsCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB01D1D29DA25B10096497C /* EmployeeDetailsCellViewModel.swift */; };
+		2DB01D2029DA27620096497C /* EmployeeDetailsHeaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB01D1F29DA27620096497C /* EmployeeDetailsHeaderViewModel.swift */; };
+		2DB01D2229DA28580096497C /* EmployeeItemProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB01D2129DA28580096497C /* EmployeeItemProtocol.swift */; };
+		2DB01D2529DA2B270096497C /* EmployeeDetailsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB01D2429DA2B270096497C /* EmployeeDetailsDataSource.swift */; };
+		2DB01D2929DABEDF0096497C /* EmployeesLocalStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB01D2829DABEDF0096497C /* EmployeesLocalStorageService.swift */; };
+		2DB01D2B29DAC24E0096497C /* FilesManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB01D2A29DAC24E0096497C /* FilesManagerProtocol.swift */; };
+		2DB01D2E29DAC26E0096497C /* FilesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB01D2D29DAC26E0096497C /* FilesManager.swift */; };
+		2DB01D3029DAD37D0096497C /* Capitalized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB01D2F29DAD37D0096497C /* Capitalized.swift */; };
+		2DB01D3229DAD4510096497C /* ViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB01D3129DAD4510096497C /* ViewControllerProtocol.swift */; };
+		2DB01D3429DADA830096497C /* EmployeesLocalStorageServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB01D3329DADA830096497C /* EmployeesLocalStorageServiceTests.swift */; };
+		2DB01D3629DADEE70096497C /* FileManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB01D3529DADEE70096497C /* FileManagerTests.swift */; };
+		2DB01D3A29DAEC8E0096497C /* RoundedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB01D3929DAEC8E0096497C /* RoundedImageView.swift */; };
 		2DD6011529D6DAE800FEC7F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD6011429D6DAE800FEC7F2 /* AppDelegate.swift */; };
 		2DD6011929D6DAE800FEC7F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD6011829D6DAE800FEC7F2 /* ViewController.swift */; };
 		2DD6011C29D6DAE800FEC7F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DD6011A29D6DAE800FEC7F2 /* Main.storyboard */; };
@@ -82,6 +108,31 @@
 		2DB01CC629D869B10096497C /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		2DB01CEF29D879200096497C /* URLFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLFormatter.swift; sourceTree = "<group>"; };
 		2DB01CF229D879600096497C /* teltechians.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = teltechians.json; sourceTree = "<group>"; };
+		2DB01CF429D87B2B0096497C /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		2DB01CF629D87C8B0096497C /* EmployeesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeesRepository.swift; sourceTree = "<group>"; };
+		2DB01D0329D885C90096497C /* EmployeeListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeListViewModel.swift; sourceTree = "<group>"; };
+		2DB01D0529D886890096497C /* EmployeeCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeCellViewModel.swift; sourceTree = "<group>"; };
+		2DB01D0729D9B8E50096497C /* EmployeeListDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeListDataSource.swift; sourceTree = "<group>"; };
+		2DB01D0929D9BB450096497C /* EmployeeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeListViewController.swift; sourceTree = "<group>"; };
+		2DB01D0B29DA0D7A0096497C /* EmployeesCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeesCoordinator.swift; sourceTree = "<group>"; };
+		2DB01D0E29DA14200096497C /* DecodedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodedArray.swift; sourceTree = "<group>"; };
+		2DB01D1329DA17000096497C /* EmployeeListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeListCell.swift; sourceTree = "<group>"; };
+		2DB01D1529DA22830096497C /* EmployeeDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDetailsViewController.swift; sourceTree = "<group>"; };
+		2DB01D1729DA228F0096497C /* EmployeeDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDetailsViewModel.swift; sourceTree = "<group>"; };
+		2DB01D1929DA22AA0096497C /* EmployeeDetailsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDetailsCell.swift; sourceTree = "<group>"; };
+		2DB01D1B29DA25660096497C /* EmployeeDetailsHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDetailsHeaderView.swift; sourceTree = "<group>"; };
+		2DB01D1D29DA25B10096497C /* EmployeeDetailsCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDetailsCellViewModel.swift; sourceTree = "<group>"; };
+		2DB01D1F29DA27620096497C /* EmployeeDetailsHeaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDetailsHeaderViewModel.swift; sourceTree = "<group>"; };
+		2DB01D2129DA28580096497C /* EmployeeItemProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeItemProtocol.swift; sourceTree = "<group>"; };
+		2DB01D2429DA2B270096497C /* EmployeeDetailsDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDetailsDataSource.swift; sourceTree = "<group>"; };
+		2DB01D2829DABEDF0096497C /* EmployeesLocalStorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeesLocalStorageService.swift; sourceTree = "<group>"; };
+		2DB01D2A29DAC24E0096497C /* FilesManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilesManagerProtocol.swift; sourceTree = "<group>"; };
+		2DB01D2D29DAC26E0096497C /* FilesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilesManager.swift; sourceTree = "<group>"; };
+		2DB01D2F29DAD37D0096497C /* Capitalized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Capitalized.swift; sourceTree = "<group>"; };
+		2DB01D3129DAD4510096497C /* ViewControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerProtocol.swift; sourceTree = "<group>"; };
+		2DB01D3329DADA830096497C /* EmployeesLocalStorageServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeesLocalStorageServiceTests.swift; sourceTree = "<group>"; };
+		2DB01D3529DADEE70096497C /* FileManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerTests.swift; sourceTree = "<group>"; };
+		2DB01D3929DAEC8E0096497C /* RoundedImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedImageView.swift; sourceTree = "<group>"; };
 		2DD6011129D6DAE800FEC7F2 /* TelTechApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TelTechApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DD6011429D6DAE800FEC7F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DD6011829D6DAE800FEC7F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +151,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DB01D1229DA16390096497C /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,7 +186,9 @@
 				2DB01C9129D869B10096497C /* AppCoordinator */,
 				2DB01C9329D869B10096497C /* Constants */,
 				2DB01C9D29D869B10096497C /* Data */,
+				2DB01D0D29DA14010096497C /* DecodedArray */,
 				2DB01C9529D869B10096497C /* Extensions */,
+				2DB01D2C29DAC2650096497C /* FileManager */,
 				2DB01C8F29D869B10096497C /* NetworkLayerService */,
 				2DB01C8B29D869B10096497C /* PropertyWrappers */,
 				2DB01CAE29D869B10096497C /* Protocols */,
@@ -150,6 +204,7 @@
 			isa = PBXGroup;
 			children = (
 				2DB01CEF29D879200096497C /* URLFormatter.swift */,
+				2DB01D2F29DAD37D0096497C /* Capitalized.swift */,
 			);
 			path = PropertyWrappers;
 			sourceTree = "<group>";
@@ -206,9 +261,9 @@
 		2DB01C9D29D869B10096497C /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				2DB01C9E29D869B10096497C /* Repository */,
-				2DB01CA129D869B10096497C /* Model */,
 				2DB01CA829D869B10096497C /* DAL */,
+				2DB01CA129D869B10096497C /* Model */,
+				2DB01C9E29D869B10096497C /* Repository */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -216,6 +271,7 @@
 		2DB01C9E29D869B10096497C /* Repository */ = {
 			isa = PBXGroup;
 			children = (
+				2DB01CF629D87C8B0096497C /* EmployeesRepository.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -223,8 +279,9 @@
 		2DB01CA129D869B10096497C /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				2DB01CA229D869B10096497C /* NetworkResponse.swift */,
+				2DB01CF429D87B2B0096497C /* Employee.swift */,
 				2DB01CA329D869B10096497C /* HTTPRequest.swift */,
+				2DB01CA229D869B10096497C /* NetworkResponse.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -232,6 +289,7 @@
 		2DB01CA829D869B10096497C /* DAL */ = {
 			isa = PBXGroup;
 			children = (
+				2DB01D2829DABEDF0096497C /* EmployeesLocalStorageService.swift */,
 			);
 			path = DAL;
 			sourceTree = "<group>";
@@ -239,6 +297,7 @@
 		2DB01CAB29D869B10096497C /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2DB01D3929DAEC8E0096497C /* RoundedImageView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -248,7 +307,9 @@
 			children = (
 				2DB01CB629D869B10096497C /* ActivityIndicatorPresentable.swift */,
 				2DB01CB229D869B10096497C /* Configurable.swift */,
+				2DB01D2129DA28580096497C /* EmployeeItemProtocol.swift */,
 				2DB01CB129D869B10096497C /* ErrorHandlerProtocol.swift */,
+				2DB01D2A29DAC24E0096497C /* FilesManagerProtocol.swift */,
 				2DB01CB929D869B10096497C /* IDable.swift */,
 				2DB01CBA29D869B10096497C /* Loadable.swift */,
 				2DB01CB429D869B10096497C /* NavigationBarProtocol.swift */,
@@ -256,6 +317,7 @@
 				2DB01CAF29D869B10096497C /* Requestable.swift */,
 				2DB01CB329D869B10096497C /* Reusable.swift */,
 				2DB01CB829D869B10096497C /* ViewStyleable.swift */,
+				2DB01D3129DAD4510096497C /* ViewControllerProtocol.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -315,6 +377,7 @@
 		2DB01CEE29D869D10096497C /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				2DB01CF829D883FC0096497C /* Employees */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -325,6 +388,130 @@
 				2DB01CF229D879600096497C /* teltechians.json */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		2DB01CF829D883FC0096497C /* Employees */ = {
+			isa = PBXGroup;
+			children = (
+				2DB01CF929D884040096497C /* Coordinator */,
+				2DB01CFB29D884100096497C /* Details */,
+				2DB01CFA29D8840B0096497C /* List */,
+			);
+			path = Employees;
+			sourceTree = "<group>";
+		};
+		2DB01CF929D884040096497C /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				2DB01D0B29DA0D7A0096497C /* EmployeesCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		2DB01CFA29D8840B0096497C /* List */ = {
+			isa = PBXGroup;
+			children = (
+				2DB01CFF29D8841E0096497C /* Controller */,
+				2DB01CFC29D884150096497C /* DataSource */,
+				2DB01CFD29D884180096497C /* View */,
+				2DB01CFE29D8841B0096497C /* ViewModel */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		2DB01CFB29D884100096497C /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				2DB01D0029D884380096497C /* Controller */,
+				2DB01D2329DA2B160096497C /* DataSource */,
+				2DB01D0229D884440096497C /* View */,
+				2DB01D0129D8843E0096497C /* ViewModel */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		2DB01CFC29D884150096497C /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				2DB01D0729D9B8E50096497C /* EmployeeListDataSource.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		2DB01CFD29D884180096497C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2DB01D1329DA17000096497C /* EmployeeListCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2DB01CFE29D8841B0096497C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2DB01D0529D886890096497C /* EmployeeCellViewModel.swift */,
+				2DB01D0329D885C90096497C /* EmployeeListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2DB01CFF29D8841E0096497C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2DB01D0929D9BB450096497C /* EmployeeListViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2DB01D0029D884380096497C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2DB01D1529DA22830096497C /* EmployeeDetailsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2DB01D0129D8843E0096497C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2DB01D1D29DA25B10096497C /* EmployeeDetailsCellViewModel.swift */,
+				2DB01D1F29DA27620096497C /* EmployeeDetailsHeaderViewModel.swift */,
+				2DB01D1729DA228F0096497C /* EmployeeDetailsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2DB01D0229D884440096497C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2DB01D1929DA22AA0096497C /* EmployeeDetailsCell.swift */,
+				2DB01D1B29DA25660096497C /* EmployeeDetailsHeaderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2DB01D0D29DA14010096497C /* DecodedArray */ = {
+			isa = PBXGroup;
+			children = (
+				2DB01D0E29DA14200096497C /* DecodedArray.swift */,
+			);
+			path = DecodedArray;
+			sourceTree = "<group>";
+		};
+		2DB01D2329DA2B160096497C /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				2DB01D2429DA2B270096497C /* EmployeeDetailsDataSource.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		2DB01D2C29DAC2650096497C /* FileManager */ = {
+			isa = PBXGroup;
+			children = (
+				2DB01D2D29DAC26E0096497C /* FilesManager.swift */,
+			);
+			path = FileManager;
 			sourceTree = "<group>";
 		};
 		2DD6010829D6DAE800FEC7F2 = {
@@ -363,6 +550,8 @@
 		2DD6012A29D6DAEA00FEC7F2 /* TelTechAppTests */ = {
 			isa = PBXGroup;
 			children = (
+				2DB01D3329DADA830096497C /* EmployeesLocalStorageServiceTests.swift */,
+				2DB01D3529DADEE70096497C /* FileManagerTests.swift */,
 				2DD6012B29D6DAEA00FEC7F2 /* TelTechAppTests.swift */,
 			);
 			path = TelTechAppTests;
@@ -393,6 +582,9 @@
 			dependencies = (
 			);
 			name = TelTechApp;
+			packageProductDependencies = (
+				2DB01D1129DA16390096497C /* SnapKit */,
+			);
 			productName = TelTechApp;
 			productReference = 2DD6011129D6DAE800FEC7F2 /* TelTechApp.app */;
 			productType = "com.apple.product-type.application";
@@ -466,6 +658,9 @@
 				Base,
 			);
 			mainGroup = 2DD6010829D6DAE800FEC7F2;
+			packageReferences = (
+				2DB01D1029DA16390096497C /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 2DD6011229D6DAE800FEC7F2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -511,29 +706,52 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DB01D1629DA22830096497C /* EmployeeDetailsViewController.swift in Sources */,
 				2DB01CCA29D869B10096497C /* AppCoordinator.swift in Sources */,
+				2DB01CF529D87B2B0096497C /* Employee.swift in Sources */,
 				2DB01CC929D869B10096497C /* NetworkLayerService.swift in Sources */,
 				2DB01CE429D869B10096497C /* ActivityIndicatorPresentable.swift in Sources */,
+				2DB01D0629D886890096497C /* EmployeeCellViewModel.swift in Sources */,
+				2DB01D2E29DAC26E0096497C /* FilesManager.swift in Sources */,
+				2DB01D2929DABEDF0096497C /* EmployeesLocalStorageService.swift in Sources */,
+				2DB01D0429D885C90096497C /* EmployeeListViewModel.swift in Sources */,
 				2DB01CE229D869B10096497C /* NavigationBarProtocol.swift in Sources */,
 				2DB01CE729D869B10096497C /* IDable.swift in Sources */,
 				2DB01CDF29D869B10096497C /* ErrorHandlerProtocol.swift in Sources */,
 				2DB01CE029D869B10096497C /* Configurable.swift in Sources */,
+				2DB01D3229DAD4510096497C /* ViewControllerProtocol.swift in Sources */,
+				2DB01D2529DA2B270096497C /* EmployeeDetailsDataSource.swift in Sources */,
+				2DB01CF729D87C8B0096497C /* EmployeesRepository.swift in Sources */,
+				2DB01D2029DA27620096497C /* EmployeeDetailsHeaderViewModel.swift in Sources */,
+				2DB01D2229DA28580096497C /* EmployeeItemProtocol.swift in Sources */,
+				2DB01D2B29DAC24E0096497C /* FilesManagerProtocol.swift in Sources */,
+				2DB01D3029DAD37D0096497C /* Capitalized.swift in Sources */,
 				2DB01CCD29D869B10096497C /* String+Extensions.swift in Sources */,
 				2DB01CD429D869B10096497C /* HTTPRequest.swift in Sources */,
+				2DB01D1429DA17000096497C /* EmployeeListCell.swift in Sources */,
+				2DB01D1E29DA25B10096497C /* EmployeeDetailsCellViewModel.swift in Sources */,
 				2DB01CCB29D869B10096497C /* Constants.swift in Sources */,
+				2DB01D1C29DA25660096497C /* EmployeeDetailsHeaderView.swift in Sources */,
+				2DB01D0A29D9BB450096497C /* EmployeeListViewController.swift in Sources */,
+				2DB01D0829D9B8E50096497C /* EmployeeListDataSource.swift in Sources */,
 				2DB01CDD29D869B10096497C /* Requestable.swift in Sources */,
 				2DB01CCE29D869B10096497C /* Reachability+Extensions.swift in Sources */,
 				2DB01CE929D869B10096497C /* Utility.swift in Sources */,
+				2DB01D3A29DAEC8E0096497C /* RoundedImageView.swift in Sources */,
 				2DB01CCF29D869B10096497C /* Reachability.swift in Sources */,
 				2DB01CE129D869B10096497C /* Reusable.swift in Sources */,
 				2DB01CD329D869B10096497C /* NetworkResponse.swift in Sources */,
+				2DB01D0F29DA14200096497C /* DecodedArray.swift in Sources */,
 				2DB01CE329D869B10096497C /* Presentable.swift in Sources */,
 				2DD6011929D6DAE800FEC7F2 /* ViewController.swift in Sources */,
 				2DB01CD029D869B10096497C /* KeyboardObserver.swift in Sources */,
 				2DB01CE829D869B10096497C /* Loadable.swift in Sources */,
 				2DB01CE629D869B10096497C /* ViewStyleable.swift in Sources */,
+				2DB01D1A29DA22AA0096497C /* EmployeeDetailsCell.swift in Sources */,
 				2DD6011529D6DAE800FEC7F2 /* AppDelegate.swift in Sources */,
+				2DB01D0C29DA0D7A0096497C /* EmployeesCoordinator.swift in Sources */,
 				2DB01CF029D879200096497C /* URLFormatter.swift in Sources */,
+				2DB01D1829DA228F0096497C /* EmployeeDetailsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -542,6 +760,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DD6012C29D6DAEA00FEC7F2 /* TelTechAppTests.swift in Sources */,
+				2DB01D3429DADA830096497C /* EmployeesLocalStorageServiceTests.swift in Sources */,
+				2DB01D3629DADEE70096497C /* FileManagerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -718,7 +938,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -747,7 +967,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -877,6 +1097,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2DB01D1029DA16390096497C /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2DB01D1129DA16390096497C /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2DB01D1029DA16390096497C /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2DD6010929D6DAE800FEC7F2 /* Project object */;
 }

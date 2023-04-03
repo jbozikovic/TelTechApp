@@ -32,5 +32,16 @@ final class TelTechAppTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
+    
+    func testStringNilOrEmpty() {
+        let input: String? = nil
+        XCTAssertEqual(input.isNilOrEmpty, true, "Not satisfied")
+    }
+
+    func testIsValidUrl() {
+        let input = "http://www.google.com"
+        let url = Utility.isValidUrl(urlString: input)
+        XCTAssertEqual(url != nil, true, "testIsValidUrl not satisfied")
+    }
 
 }

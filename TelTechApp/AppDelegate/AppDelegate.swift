@@ -3,6 +3,7 @@
 //  TelTechApp
 //
 //  Created by Jurica Bozikovic on 31.03.2023..
+//  Copyright © 2023 CocodeLab. All rights reserved.
 //
 
 import UIKit

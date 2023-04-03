@@ -48,6 +48,16 @@ class AppCoordinator: Coordinator {
         guard let window = self.window else { return }
         window.rootViewController = presenter
         window.makeKeyAndVisible()
-//        startUsersCoordinator()
+        startEmployeesCoordinator()
+    }
+}
+
+
+//  MARK: - EmployeesCoordinator
+private extension AppCoordinator {
+    func startEmployeesCoordinator() {
+        let coordinator = EmployeesCoordinator(presenter: presenter)
+        self.addChildCoordinator(coordinator: coordinator)
+        coordinator.start()
     }
 }

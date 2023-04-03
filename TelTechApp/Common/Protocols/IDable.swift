@@ -9,6 +9,6 @@
 import Foundation
 
 protocol IDable {
-    var id: Int { get }
+    var id: String { get }
     var name: String { get }
 }
