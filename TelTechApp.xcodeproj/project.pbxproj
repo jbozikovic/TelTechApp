@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D2F257D29DB112800EC4364 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2D2F257F29DB112800EC4364 /* Localizable.strings */; };
 		2DB01CC929D869B10096497C /* NetworkLayerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB01C9029D869B10096497C /* NetworkLayerService.swift */; };
 		2DB01CCA29D869B10096497C /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB01C9229D869B10096497C /* AppCoordinator.swift */; };
 		2DB01CCB29D869B10096497C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB01C9429D869B10096497C /* Constants.swift */; };
@@ -28,7 +29,6 @@
 		2DB01CE829D869B10096497C /* Loadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB01CBA29D869B10096497C /* Loadable.swift */; };
 		2DB01CE929D869B10096497C /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB01CBC29D869B10096497C /* Utility.swift */; };
 		2DB01CEC29D869B10096497C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DB01CC429D869B10096497C /* Assets.xcassets */; };
-		2DB01CED29D869B10096497C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2DB01CC629D869B10096497C /* Localizable.strings */; };
 		2DB01CF029D879200096497C /* URLFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB01CEF29D879200096497C /* URLFormatter.swift */; };
 		2DB01CF329D879600096497C /* teltechians.json in Resources */ = {isa = PBXBuildFile; fileRef = 2DB01CF229D879600096497C /* teltechians.json */; };
 		2DB01CF529D87B2B0096497C /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB01CF429D87B2B0096497C /* Employee.swift */; };
@@ -84,6 +84,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D2F257E29DB112800EC4364 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2D2F258229DB11C400EC4364 /* hr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hr; path = hr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		2DB01C9029D869B10096497C /* NetworkLayerService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkLayerService.swift; sourceTree = "<group>"; };
 		2DB01C9229D869B10096497C /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		2DB01C9429D869B10096497C /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -105,7 +107,6 @@
 		2DB01CBA29D869B10096497C /* Loadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loadable.swift; sourceTree = "<group>"; };
 		2DB01CBC29D869B10096497C /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 		2DB01CC429D869B10096497C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2DB01CC629D869B10096497C /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		2DB01CEF29D879200096497C /* URLFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLFormatter.swift; sourceTree = "<group>"; };
 		2DB01CF229D879600096497C /* teltechians.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = teltechians.json; sourceTree = "<group>"; };
 		2DB01CF429D87B2B0096497C /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
@@ -369,7 +370,7 @@
 		2DB01CC529D869B10096497C /* Translations */ = {
 			isa = PBXGroup;
 			children = (
-				2DB01CC629D869B10096497C /* Localizable.strings */,
+				2D2F257F29DB112800EC4364 /* Localizable.strings */,
 			);
 			path = Translations;
 			sourceTree = "<group>";
@@ -656,6 +657,7 @@
 			knownRegions = (
 				en,
 				Base,
+				hr,
 			);
 			mainGroup = 2DD6010829D6DAE800FEC7F2;
 			packageReferences = (
@@ -679,7 +681,7 @@
 			files = (
 				2DD6012129D6DAEA00FEC7F2 /* LaunchScreen.storyboard in Resources */,
 				2DB01CEC29D869B10096497C /* Assets.xcassets in Resources */,
-				2DB01CED29D869B10096497C /* Localizable.strings in Resources */,
+				2D2F257D29DB112800EC4364 /* Localizable.strings in Resources */,
 				2DD6011C29D6DAE800FEC7F2 /* Main.storyboard in Resources */,
 				2DB01CF329D879600096497C /* teltechians.json in Resources */,
 			);
@@ -790,6 +792,15 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		2D2F257F29DB112800EC4364 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D2F257E29DB112800EC4364 /* en */,
+				2D2F258229DB11C400EC4364 /* hr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		2DD6011A29D6DAE800FEC7F2 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -813,6 +824,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -873,6 +885,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";

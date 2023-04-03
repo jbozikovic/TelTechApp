@@ -1,0 +1,24 @@
+/* 
+  Localizable.strings
+ TelTechApp
+
+  Created by Jurica Bozikovic on 01.04.2023..
+  Copyright © 2023 CocodeLab. All rights reserved.
+*/
+
+"cancel" = "Otkazi";
+"error" = "Greska";
+"error_occurred_try_again" = "Doslo je do greske. Molimo probajte ponovno.";
+"no_internet_connection" = "Molimo provjerite svoju internet konekciju.";
+"ok" = "OK";
+"not_available" = "Nije dostupno";
+"email" = "E-mail";
+"no_data" = "Nema rezultata.";
+"fetch_data_failed" = "Dohvat podataka neuspjesan. Molimo probajte ponovno ili nas kontaktirajte.";
+"title" = "Naslov";
+"team" = "Tim";
+"about_me" = "O meni";
+"agency" = "Agencija";
+"details" = "Detalji";
+"employees" = "Zaposlenici";
+"no_file" = "Datoteka nije pronadjena";
